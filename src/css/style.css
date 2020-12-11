@@ -3,11 +3,6 @@
   padding: 0;
   box-sizing: borderbox; }
 
-/* Landscape phones and down */
-/* Landscape phone to portrait tablet */
-/* Portrait tablet to landscape and desktop */
-/* Large desktop */
-/* Print */
 html {
   font-size: 62.5%; }
 
@@ -15,22 +10,9 @@ body {
   font-family: var(--font-family);
   color: var(--text);
   font-size: 1.6rem; }
-  @media print {
-    body {
-      font-size: 1.1rem;
-      margin: 0;
-      padding: 0;
-      line-height: 1.4em;
-      word-spacing: 1px;
-      letter-spacing: 0.2px;
-      font: 13px Arial, Helvetica, "Lucida Grande", serif;
-      color: #333; } }
 
 p {
   margin-top: 1rem 0; }
-  @media print {
-    p {
-      margin: 0; } }
 
 h1,
 h2,
@@ -39,14 +21,6 @@ h4,
 h5,
 h6 {
   margin: 1rem 0 2rem 0; }
-  @media print {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      margin: 1rem 0 1rem 0; } }
 
 ul {
   list-style: none; }

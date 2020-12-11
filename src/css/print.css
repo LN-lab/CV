@@ -1,102 +1,135 @@
 @media print {
-  body {
-    font-size: 1.1rem; }
-  p {
-    margin: 0; }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 1rem 0 1rem 0; }
-  .text-hint {
-    margin-bottom: 1rem; }
-  .grid-container {
-    grid: "picture header" 120px "aside main" 1fr "footer footer" auto / 200px auto; }
-  header {
-    padding: 1rem; }
-    header h1 {
-      font-size: 4rem;
-      line-height: 5rem;
-      font-weight: 300;
-      letter-spacing: 1rem; }
-    header p {
-      letter-spacing: 0.2rem;
-      font-size: 1.8rem; }
-  .picture {
-    padding: 10px 50px 0 50px;
-    text-align: center;
-    border-right: 1px solid var(--border); }
-    .picture img {
-      border-radius: 50%; }
-  aside {
-    padding: 10px; }
-    aside .block {
-      margin-bottom: 2rem; }
-      aside .block p {
-        margin: 0 0 1rem 0;
-        font-style: italic; }
-      aside .block .bar-skill {
-        margin: 10px 0;
-        height: 3px;
-        width: 150px; }
-        aside .block .bar-skill .bar-skill-progress {
-          height: 3px; }
-        aside .block .bar-skill .bar-skill-dot {
-          height: 8px;
-          width: 8px;
-          background: var(--dark);
-          left: calc(80% - 5px);
-          top: -2.5px;
-          transform: rotate(45deg); }
-      aside .block .stars-container {
-        display: flex;
-        margin: 0.5rem 0 1rem 0;
-        color: var(--hint); }
-        aside .block .stars-container i {
-          font-size: 1rem;
-          margin: 0 0.5rem; }
-      aside .block .social,
-      aside .block .social-container {
-        display: none;
-        margin-bottom: 0; }
-    aside .qrcode {
-      display: flex;
-      justify-content: baseline; }
-      aside .qrcode img {
-        width: 70%; }
-  main {
-    padding: 1.5rem; }
-    main h2 {
-      margin-top: 28px;
-      margin-bottom: 1rem; }
-    main p {
-      letter-spacing: normal;
-      line-height: 20px;
-      margin-bottom: 15px; }
-    main .experience {
-      display: flex;
-      margin: 1.5rem 0; }
-      main .experience :last-child {
-        margin-bottom: 0; }
-      main .experience .timeline {
-        text-align: center;
-        color: var(--hint);
-        padding-right: 5px;
-        border-right: 1px solid var(--border); }
-        main .experience .timeline p {
-          margin: 0; }
-    main .content {
-      padding-left: 5px; }
-      main .content h3 {
-        margin: 0; }
-      main .content p {
-        margin: 0; }
-      main .content ul {
-        margin: 8px 0;
-        list-style: circle;
-        padding-left: 4rem;
-        color: var(--hint); }
-  footer {
-    display: none; } }
+	body {
+		font-size: 1.1rem;
+	}
+	p {
+		margin: 0;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin: 1rem 0 1rem 0;
+		color: green;
+	}
+	.grid-container {
+		grid: "picture header" 120px "aside main" 1fr "footer footer" auto / 200px auto;
+	}
+	header {
+		padding: 1rem;
+		color: red;
+	}
+	header h1 {
+		font-size: 4rem;
+		line-height: 5rem;
+		font-weight: 300;
+		letter-spacing: 1rem;
+	}
+	header p {
+		letter-spacing: 0.2rem;
+		font-size: 1.8rem;
+	}
+	.picture {
+		padding: 10px 50px 0 50px;
+		text-align: center;
+		border-right: 1px solid var(--border);
+	}
+	.picture img {
+		border-radius: 50%;
+	}
+	aside {
+		padding: 10px;
+	}
+	aside .block {
+		margin-bottom: 2rem;
+	}
+	aside .block p {
+		margin: 0 0 1rem 0;
+		font-style: italic;
+	}
+	aside .block .bar-skill {
+		margin: 10px 0;
+		height: 3px;
+		width: 150px;
+	}
+	aside .block .bar-skill .bar-skill-progress {
+		height: 3px;
+	}
+	aside .block .bar-skill .bar-skill-dot {
+		height: 8px;
+		width: 8px;
+		background: var(--dark);
+		left: calc(80% - 5px);
+		top: -2.5px;
+		transform: rotate(45deg);
+	}
+	aside .block .stars-container {
+		display: flex;
+		margin: 0.5rem 0 1rem 0;
+		color: var(--hint);
+	}
+	aside .block .stars-container i {
+		font-size: 1rem;
+		margin: 0 0.5rem;
+	}
+	aside .block .social,
+	aside .block .social-container {
+		display: none;
+		margin-bottom: 0;
+	}
+	aside .qrcode {
+		display: flex;
+		justify-content: baseline;
+	}
+	aside .qrcode img {
+		width: 70%;
+	}
+	main {
+		padding: 1.5rem;
+	}
+	main h2 {
+		margin-top: 28px;
+		margin-bottom: 1rem;
+	}
+	main p {
+		letter-spacing: normal;
+		line-height: 20px;
+		margin-bottom: 15px;
+	}
+	main .experience {
+		display: flex;
+		margin: 1.5rem 0;
+	}
+	main .experience :last-child {
+		margin-bottom: 0;
+	}
+	main .experience .timeline {
+		text-align: center;
+		color: var(--hint);
+		padding-right: 5px;
+		border-right: 1px solid var(--border);
+	}
+	main .experience .timeline p {
+		margin: 0;
+	}
+	main .content {
+		padding-left: 5px;
+	}
+	main .content h3 {
+		margin: 0;
+	}
+	main .content p {
+		margin: 0;
+	}
+	main .content ul {
+		margin: 8px 0;
+		list-style: circle;
+		padding-left: 4rem;
+		color: var(--hint);
+	}
+	footer {
+		display: none;
+	}
+}
