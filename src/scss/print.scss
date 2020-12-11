@@ -1,0 +1,146 @@
+@media print {
+	body {
+		font-size: 1.1rem;
+	}
+	p {
+		margin: 0;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin: 1rem 0 1rem 0;
+	}
+
+	.text-hint {
+		margin-bottom: 1rem;
+	}
+	.grid-container {
+		grid:
+			"picture header" 120px
+			"aside main" 1fr
+			"footer footer" auto
+			/ 200px auto;
+	}
+	header {
+		padding: 1rem;
+		h1 {
+			font-size: 4rem;
+			line-height: 5rem;
+			font-weight: 300;
+			letter-spacing: 1rem;
+		}
+		p {
+			letter-spacing: 0.2rem;
+			font-size: 1.8rem;
+		}
+	}
+	.picture {
+		padding: 10px 50px 0 50px;
+		text-align: center;
+		border-right: 1px solid var(--border);
+		img {
+			border-radius: 50%;
+		}
+	}
+
+	aside {
+		padding: 10px;
+
+		.block {
+			margin-bottom: 2rem;
+			p {
+				margin: 0 0 1rem 0;
+				font-style: italic;
+			}
+			.bar-skill {
+				margin: 10px 0;
+				height: 3px;
+				width: 150px;
+				.bar-skill-progress {
+					height: 3px;
+				}
+				.bar-skill-dot {
+					height: 8px;
+					width: 8px;
+					background: var(--dark);
+					left: calc(80% - 5px);
+					top: -2.5px;
+					transform: rotate(45deg);
+				}
+			}
+			.stars-container {
+				display: flex;
+				margin: 0.5rem 0 1rem 0;
+				color: var(--hint);
+				i {
+					font-size: 1rem;
+					margin: 0 0.5rem;
+				}
+			}
+			.social,
+			.social-container {
+				display: none;
+				margin-bottom: 0;
+			}
+		}
+		.qrcode {
+			display: flex;
+			justify-content: baseline;
+
+			img {
+				width: 70%;
+			}
+		}
+	}
+	main {
+		padding: 1.5rem;
+
+		h2 {
+			margin-top: 28px;
+			margin-bottom: 1rem;
+		}
+		p {
+			letter-spacing: normal;
+			line-height: 20px;
+			margin-bottom: 15px;
+		}
+		.experience {
+			display: flex;
+			margin: 1.5rem 0;
+			:last-child {
+				margin-bottom: 0;
+			}
+
+			.timeline {
+				text-align: center;
+				color: var(--hint);
+				padding-right: 5px;
+				border-right: 1px solid var(--border);
+				p {
+					margin: 0;
+				}
+			}
+		}
+		.content {
+			padding-left: 5px;
+			h3 {
+				margin: 0;
+			}
+			p {
+				margin: 0;
+			}
+			ul {
+				margin: 8px 0;
+				list-style: circle;
+				padding-left: 4rem;
+				color: var(--hint);
+			}
+		}
+	}
+	footer {
+		display: none;
+	}
+}
