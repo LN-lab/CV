@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_variables_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/variables.css */ "./src/css/variables.css");
 
 
-console.log("hello");
+console.log("Je suis la nouvelle collègue que vous recherchez");
 
 /***/ }),
 
