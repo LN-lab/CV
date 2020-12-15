@@ -103,7 +103,7 @@ header {
 .picture {
   grid-area: picture;
   background: var(--background);
-  padding: 6rem;
+  padding: 3rem;
   text-align: center;
   border-right: 1px solid var(--border); }
   .picture img {
@@ -143,9 +143,9 @@ aside {
       aside .block .bar-skill .bar-skill-dot.css {
         left: calc(80% - 5px); }
       aside .block .bar-skill .bar-skill-progress.js {
-        width: 60%; }
+        width: 50%; }
       aside .block .bar-skill .bar-skill-dot.js {
-        left: calc(60% - 5px); }
+        left: calc(50% - 5px); }
       aside .block .bar-skill .bar-skill-dot {
         position: absolute;
         height: 10px;
@@ -182,6 +182,8 @@ aside {
       aside .block .social-container p {
         flex: auto;
         margin: 0; }
+    aside .block .hobbies {
+      margin-bottom: 2rem; }
   aside .qrcode {
     display: none; }
 

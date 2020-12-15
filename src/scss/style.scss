@@ -55,7 +55,7 @@ header {
 .picture {
 	grid-area: picture;
 	background: var(--background);
-	padding: 6rem;
+	padding: 3rem;
 	text-align: center;
 	border-right: 1px solid var(--border);
 	img {
@@ -109,10 +109,10 @@ aside {
 			}
 
 			.bar-skill-progress.js {
-				width: 60%;
+				width: 50%;
 			}
 			.bar-skill-dot.js {
-				left: calc(60% - 5px);
+				left: calc(50% - 5px);
 			}
 			.bar-skill-dot {
 				position: absolute;
@@ -159,6 +159,9 @@ aside {
 				flex: auto;
 				margin: 0;
 			}
+		}
+		.hobbies {
+			margin-bottom: 2rem;
 		}
 	}
 	.qrcode {

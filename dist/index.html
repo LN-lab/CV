@@ -11,9 +11,11 @@
 			src="https://kit.fontawesome.com/d6a5c9cfaf.js"
 			crossorigin="anonymous"
 		></script>
+		
 		<link rel="stylesheet" href="./css/variables.css" />
 		<link rel="stylesheet" href="./css/style.css" />
-		<title>CV integratrice web- Hélène RICHARD</title>
+		<link rel="stylesheet" media="print" href="./css/print.css">
+		<title>CV - Hélène RICHARD</title>
 	</head>
 	<body>
 		<div class="grid-container">
@@ -22,15 +24,15 @@
 				<p>Technicienne SaaS - Enfance</p>
 			</header>
 			<section class="picture">
-				<img src="./img/myPhoto.png" alt="Photo d'Hélène RICHARD" />
+				<img src="./img/myPhoto.jpg" alt="Photo d'Hélène RICHARD" />
 			</section>
 			<aside>
 				<div class="block">
 					<h2 class="title-small">CONTACT</h2>
 					<h3>Téléphone</h3>
-					<p>06 21 73 24 46</p>
+					<p><a href="tel:+33621732446">06 21 73 24 46"</a></p>
 					<h3>Email</h3>
-					<p>helene.richard.31@gmail.com</p>
+					<p><a href="mailto:helene.richard.31@gmail.com">helene.richard.31@gmail.com</a></p>
 					<h3>Adresse</h3>
 					<p>20 chemin de la Caille - Lot 2<br />31750 - Escalquens</p>
 				</div>
@@ -223,7 +225,7 @@
 				<h2 class="title-small">POUR VOUS RECONTACTER</h2>
 				<form name="contact" method="POST" data-netlify="true">
 					<i class="far fa-envelope-open prefix"></i>
-					<input type="text" name="email" placeholder="Votre email" />
+					<input type="email" name="email" placeholder="Votre email" />
 					<button type="submit">
 						<i class="fas fa-paper-plane postfix"></i>
 					</button>
