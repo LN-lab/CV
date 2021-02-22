@@ -71,6 +71,10 @@ aside {
 
 	.block {
 		margin-bottom: 5rem;
+		span{
+			font-size: 1.5rem;
+			color: var(--primary)
+		}
 		h3 {
 			margin-bottom: 0;
 			font-size: 1.4rem;
